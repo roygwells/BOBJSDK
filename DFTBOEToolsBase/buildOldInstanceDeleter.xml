@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project DFTBOEToolsBase with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/roy.wells/Desktop/OldInstanceDeleter.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.dft.boetools.programs.OldInstanceDeleter"/>
+                <attribute name="Class-Path" value=". OldInstanceDeleter_lib/bcm.jar OldInstanceDeleter_lib/biarengine.jar OldInstanceDeleter_lib/ceaspect.jar OldInstanceDeleter_lib/cecore.jar OldInstanceDeleter_lib/celib.jar OldInstanceDeleter_lib/ceplugins_core.jar OldInstanceDeleter_lib/cesession.jar OldInstanceDeleter_lib/corbaidl.jar OldInstanceDeleter_lib/ebus405.jar OldInstanceDeleter_lib/logging.jar OldInstanceDeleter_lib/TraceLog.jar OldInstanceDeleter_lib/biplugins.jar OldInstanceDeleter_lib/sdk.core.jar OldInstanceDeleter_lib/sdk.core.server.common.jar OldInstanceDeleter_lib/sdk.core.server.corba.jar OldInstanceDeleter_lib/sdk.core.server.jar OldInstanceDeleter_lib/sdk.core.session.cms.jar OldInstanceDeleter_lib/sdk.core.session.jar OldInstanceDeleter_lib/shared-objects.jar OldInstanceDeleter_lib/SharedObjects.jar OldInstanceDeleter_lib/aspectjrt.jar OldInstanceDeleter_lib/certjFIPS.jar OldInstanceDeleter_lib/com.sap.js.passport.api.jar OldInstanceDeleter_lib/cryptojFIPS.jar OldInstanceDeleter_lib/derby.jar OldInstanceDeleter_lib/freessl201.jar OldInstanceDeleter_lib/log4j.jar OldInstanceDeleter_lib/ssljFIPS.jar OldInstanceDeleter_lib/guice-1.0.jar"/>
+            </manifest>
+            <fileset dir="C:/Users/roy.wells/workspace/DFTBOEToolsBase/bin"/>
+        </jar>
+        <delete dir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <mkdir dir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/bcm.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/biarengine.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ceaspect.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/cecore.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/celib.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ceplugins_core.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/cesession.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/corbaidl.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ebus405.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/logging.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/TraceLog.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/biplugins.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.server.common.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.server.corba.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.server.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.session.cms.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.session.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/external/shared-objects.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/SharedObjects.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/aspectjrt.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/certjFIPS.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/com.sap.js.passport.api.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/cryptojFIPS.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/derby.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/freessl201.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/log4j.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ssljFIPS.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/guice-1.0.jar" todir="C:/Users/roy.wells/Desktop/OldInstanceDeleter_lib"/>
+    </target>
+</project>

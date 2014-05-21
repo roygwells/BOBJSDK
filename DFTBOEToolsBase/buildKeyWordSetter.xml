@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project DFTBOEToolsBase with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/roy.wells/Desktop/KeyWordSetter.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.dft.boetools.programs.KeyWordSetter"/>
+                <attribute name="Class-Path" value=". KeyWordSetter_lib/bcm.jar KeyWordSetter_lib/biarengine.jar KeyWordSetter_lib/ceaspect.jar KeyWordSetter_lib/cecore.jar KeyWordSetter_lib/celib.jar KeyWordSetter_lib/ceplugins_core.jar KeyWordSetter_lib/cesession.jar KeyWordSetter_lib/corbaidl.jar KeyWordSetter_lib/ebus405.jar KeyWordSetter_lib/logging.jar KeyWordSetter_lib/TraceLog.jar KeyWordSetter_lib/biplugins.jar KeyWordSetter_lib/sdk.core.jar KeyWordSetter_lib/sdk.core.server.common.jar KeyWordSetter_lib/sdk.core.server.corba.jar KeyWordSetter_lib/sdk.core.server.jar KeyWordSetter_lib/sdk.core.session.cms.jar KeyWordSetter_lib/sdk.core.session.jar KeyWordSetter_lib/shared-objects.jar KeyWordSetter_lib/SharedObjects.jar KeyWordSetter_lib/aspectjrt.jar KeyWordSetter_lib/certjFIPS.jar KeyWordSetter_lib/com.sap.js.passport.api.jar KeyWordSetter_lib/cryptojFIPS.jar KeyWordSetter_lib/derby.jar KeyWordSetter_lib/freessl201.jar KeyWordSetter_lib/log4j.jar KeyWordSetter_lib/ssljFIPS.jar KeyWordSetter_lib/guice-1.0.jar"/>
+            </manifest>
+            <fileset dir="C:/Users/roy.wells/workspace/DFTBOEToolsBase/bin"/>
+        </jar>
+        <delete dir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <mkdir dir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/bcm.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/biarengine.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ceaspect.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/cecore.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/celib.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ceplugins_core.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/cesession.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/corbaidl.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ebus405.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/logging.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/TraceLog.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/biplugins.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.server.common.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.server.corba.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.server.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.session.cms.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.session.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/external/shared-objects.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/SharedObjects.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/aspectjrt.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/certjFIPS.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/com.sap.js.passport.api.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/cryptojFIPS.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/derby.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/freessl201.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/log4j.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ssljFIPS.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+        <copy file="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/guice-1.0.jar" todir="C:/Users/roy.wells/Desktop/KeyWordSetter_lib"/>
+    </target>
+</project>

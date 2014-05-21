@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project DFTBOEToolsBase">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/roy.wells.DECISIONFIRST/Desktop/InboxCleaner.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="com.dft.boetools.programs.InboxCleaner"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/Users/roy.wells.DECISIONFIRST/Dropbox/workspace/DFTBOEToolsBase/bin"/>
+        	<!--
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/bcm.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/biarengine.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ceaspect.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/cecore.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/celib.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ceplugins_core.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/cesession.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/corbaidl.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ebus405.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/logging.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/TraceLog.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/biplugins.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.server.common.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.server.corba.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.server.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.session.cms.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/sdk.core.session.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/external/shared-objects.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/SharedObjects.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/aspectjrt.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/certjFIPS.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/com.sap.js.passport.api.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/cryptojFIPS.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/derby.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/freessl201.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/log4j.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/ssljFIPS.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files (x86)/SAP BusinessObjects/SAP BusinessObjects Enterprise XI 4.0/java/lib/guice-1.0.jar"/>
+            -->
+        </jar>
+    </target>
+</project>
